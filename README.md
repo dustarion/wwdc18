@@ -22,17 +22,17 @@ Ensure you are running the latest version of xcode, open the playground file and
 ### Testing individual scenes
 
 First comment out :
-```
+```swift
 PlaygroundPage.current.liveView = IntroVC
 ```
 which lies at the very bottom of the main playground file.
 
 After which you can uncomment the line which shows the scene you want such as :
-```
+```swift
 //PlaygroundPage.current.liveView = KarlVC
 ```
 and this becomes
-```
+```swift
 PlaygroundPage.current.liveView = KarlVC
 ```
 
